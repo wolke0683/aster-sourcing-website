@@ -1,0 +1,114 @@
+{
+  "categories": [
+    {
+      "name": "Apparel",
+      "icon": "fas fa-tshirt",
+      "description": "Clothing, accessories, and fashion items sourced from quality manufacturers"
+    },
+    {
+      "name": "Furniture",
+      "icon": "fas fa-couch",
+      "description": "Home and office furniture solutions from reliable suppliers"
+    },
+    {
+      "name": "Bags & Cases",
+      "icon": "fas fa-briefcase",
+      "description": "Various bags, cases, and storage solutions for different purposes"
+    },
+    {
+      "name": "Beauty",
+      "icon": "fas fa-spa",
+      "description": "Beauty and personal care products from certified manufacturers"
+    },
+    {
+      "name": "Toys",
+      "icon": "fas fa-gamepad",
+      "description": "Educational and recreational toys for all age groups"
+    },
+    {
+      "name": "Sports",
+      "icon": "fas fa-football-ball",
+      "description": "Sports equipment and accessories for various activities"
+    },
+    {
+      "name": "Home Supplies",
+      "icon": "fas fa-home",
+      "description": "Essential household items and home improvement products"
+    },
+    {
+      "name": "Garden & Tools",
+      "icon": "fas fa-leaf",
+      "description": "Gardening equipment and tools for outdoor maintenance"
+    },
+    {
+      "name": "Electronics",
+      "icon": "fas fa-laptop",
+      "description": "Consumer electronics and electronic components"
+    },
+    {
+      "name": "Pet Supplies",
+      "icon": "fas fa-paw",
+      "description": "Products for pets including food, toys, and accessories"
+    },
+    {
+      "name": "Mother & Kids",
+      "icon": "fas fa-baby",
+      "description": "Products for mothers and children, including baby care items"
+    },
+    {
+      "name": "Hardware",
+      "icon": "fas fa-tools",
+      "description": "Hardware tools and construction materials"
+    },
+    {
+      "name": "Office Supplies",
+      "icon": "fas fa-paperclip",
+      "description": "Office essentials and business supplies"
+    },
+    {
+      "name": "Automotive",
+      "icon": "fas fa-car",
+      "description": "Auto parts and accessories for vehicles"
+    },
+    {
+      "name": "Industrial",
+      "icon": "fas fa-industry",
+      "description": "Industrial equipment and manufacturing supplies"
+    },
+    {
+      "name": "Packaging",
+      "icon": "fas fa-box-open",
+      "description": "Packaging materials and solutions for various products"
+    },
+    {
+      "name": "Outdoors",
+      "icon": "fas fa-mountain",
+      "description": "Outdoor recreation and camping equipment"
+    },
+    {
+      "name": "Jewelry",
+      "icon": "fas fa-gem",
+      "description": "Fashion jewelry and accessories"
+    },
+    {
+      "name": "Lighting",
+      "icon": "fas fa-lightbulb",
+      "description": "Indoor and outdoor lighting solutions"
+    }
+  ],
+  "layout": {
+    "columns": 5,
+    "spacing": "1rem",
+    "background": "#ffffff",
+    "text_align": "center",
+    "card_style": {
+      "padding": "1.5rem",
+      "border_radius": "8px",
+      "box_shadow": "0 2px 4px rgba(0,0,0,0.1)",
+      "hover": {
+        "transform": "translateY(-5px)",
+        "transition": "transform 0.3s ease"
+      }
+    }
+  }
+}
