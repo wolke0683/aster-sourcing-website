@@ -94,6 +94,11 @@
       "name": "Lighting",
       "icon": "fas fa-lightbulb",
       "description": "Indoor and outdoor lighting solutions"
+    },
+    {
+      "name": "Adult Products",
+      "icon": "fas fa-holly-berry",
+      "description": "Adult lifestyle and wellness products"
     }
   ],
   "layout": {

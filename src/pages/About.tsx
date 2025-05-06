@@ -11,10 +11,10 @@ const About = () => {
           <div>
             <h2 className="text-2xl font-semibold mb-4">Our Story</h2>
             <p className="text-gray-600 mb-4">
-              Founded with a vision to revolutionize global sourcing, Aster Sourcing
-              has been helping businesses optimize their supply chains since 2015.
-              We combine industry expertise with innovative technology to deliver
-              exceptional sourcing solutions.
+              Founded with a vision to revolutionize global sourcing, <b>Aster Sourcing</b> set out to bridge the gaps created by language, culture, and time zones. We are a young, energetic and diversified team. Since 2020, we've been helping businesses streamline their supply chains and build strong, lasting relationships with trusted manufacturers across Asia.
+            </p>
+            <p className="text-gray-600 mb-4">
+              Combining deep industry expertise with smart technology, we deliver tailored sourcing solutions that go beyond transactions — empowering our clients to grow with confidence.
             </p>
           </div>
           <div>

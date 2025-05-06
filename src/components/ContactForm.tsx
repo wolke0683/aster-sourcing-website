@@ -88,7 +88,17 @@ const ContactForm = () => {
             />
           </div>
 
-          <Button type="submit" className="w-full">
+          <Button 
+            type="submit" 
+            size="lg"
+            variant="outline"
+            className="w-full text-primary border-primary hover:bg-primary/10"
+            onClick={() => {
+              // Send form data to email service
+              const emailContent = `Name: ${formData.name}\nEmail: ${formData.email}\nCompany: ${formData.company}\nMessage: ${formData.message}`;
+              window.location.href = `mailto:info@astersourcing.com?subject=Contact Form Submission&body=${encodeURIComponent(emailContent)}`;
+            }}
+          >
             Send Message
           </Button>
         </form>
