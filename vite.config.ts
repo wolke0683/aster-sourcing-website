@@ -1,11 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite';
 import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [react()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
@@ -29,10 +28,7 @@ export default defineConfig({
   // Configure server options for development
   server: {
     port: 3000,
-    // Enable history fallback for client-side routing in dev
-    historyApiFallback: true,
-    // Configure proxy if needed
-    proxy: {},
+    proxy: {}
   },
   // Optimize dependencies
   optimizeDeps: {
